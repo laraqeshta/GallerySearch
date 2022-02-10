@@ -8,17 +8,6 @@ const Search = (props) => {
   const onSubmit = (data) => {
     props.imageBySearch(data.img);
   };
-  const layout = {
-    labelCol: {
-      span: 8,
-    },
-    wrapperCol: {
-      span: 16,
-    },
-    
-
-  };
-  
 
   return (
     <div className="search">
