@@ -31,6 +31,10 @@ const Gallery = () => {
 
   const renderImages = useMemo(() => {
     return images.map((image) => {
+      console.log(
+        "🚀 ~ file: Gallery.jsx ~ line 19 ~ renderImages ~ image",
+        image
+      );
       return (
         <div className="img-cell" key={image.id}>
           <img className="img" src={image.urls.small} alt={image.id} />

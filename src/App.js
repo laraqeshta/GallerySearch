@@ -1,10 +1,9 @@
-import Gallery from './component/Gallery';
-
+import Gallery from "./component/Gallery";
 
 function App() {
   return (
     <div className="app">
-      <Gallery/>
+      <Gallery />
     </div>
   );
 }
